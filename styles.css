@@ -2,7 +2,7 @@ h1{
     text-align: center;
 }
 
-.main{
+#main{
     display: flex;
     margin-right: 20%;
     margin-left: 20%;
@@ -10,4 +10,9 @@ h1{
    
     outline: 2px dashed blue;
 
+}
+
+.box{
+    background-color: blue;
+    width: 100%;
 }
