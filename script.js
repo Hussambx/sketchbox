@@ -14,7 +14,7 @@ function start(){
     for(let i =0;i<amount;i++){
         let me = document.createElement("section");
         me.id ="box";
-        me.style.backgroundColor = "red";
+        me.style.backgroundColor = "white";
         me.style.width=widthx+"px";
         me.style.height = widthx+"px";
         document.getElementById('main').appendChild(me);
