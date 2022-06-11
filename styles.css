@@ -4,10 +4,12 @@ h1{
 
 #main{
     display: flex;
-    margin-right: 20%;
-    margin-left: 20%;
-    height:500px;
-   
+    transform: translate(-50%, -50%);
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    height: 800px;
+    width: 800px;
     outline: 2px dashed blue;
 
 }
