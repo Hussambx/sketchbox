@@ -1,7 +1,10 @@
 h1,h2{
     text-align: center;
 }
-
+h1{
+    font-size: 50px;
+    margin-top: 15px;
+}
 #main{
     display: flex;
     flex-flow: row wrap;
@@ -28,13 +31,13 @@ h2{
 }
 .colorx{
     background-color: green;
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 200px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     border-radius: 5%;
-    margin-right: 78%;
+    margin-right: 76%;
     padding-bottom: 40px;
 }
     
@@ -50,7 +53,7 @@ input{
     
 }
 select{
-    width: 120px;
+    width: 100px;
     height:50px;
     margin-top: 40px;
   border-radius: 5%;
@@ -67,5 +70,5 @@ select{
     border-style: none;
     height: 50px;
     margin-top: 40px;
-    width: 120px;
+    width: 80px;
 }
