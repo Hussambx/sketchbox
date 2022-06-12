@@ -1,3 +1,9 @@
+body{
+    background-color: #ededed;
+}
+
+
+
 h1,h2{
     text-align: center;
 }
@@ -13,9 +19,9 @@ h1{
     position: fixed;
     left: 50%;
     top: 50%;
-    height: 800px;
-    width: 800px;
-    outline: 2px solid blue;
+    height: 600px;
+    width: 600px;
+    outline: 2px solid black;
  gap: 0;
 }
 
@@ -30,19 +36,20 @@ h2{
     font-size: xx-large;
 }
 .colorx{
-    background-color: green;
-    margin-left: 12%;
+    background-color: grey;
+    margin-left: 16%;
     margin-top: 200px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     border-radius: 5%;
-    margin-right: 76%;
+    outline: 1px solid black;
+    margin-right: 72%;
     padding-bottom: 40px;
 }
     
 input{
-    background-color: green;
+    background-color: grey;
     border-color: grey;
     height: 50px;
     width: 140px;
@@ -57,13 +64,16 @@ select{
     height:50px;
     margin-top: 40px;
   border-radius: 5%;
-  border-color: green;
-    background-color: darkblue;
-    border-color: green;
+    background-color: gray;
+    border-color: gray;
     text-align: center;
+    outline: 1px solid lightblue;
     color:white;
 }
 .rest{
+    background-color: grey;
+    outline: 1px solid black;
+    color: white;
     margin-left: 20%;
     margin-right: 20%;
     border-radius: 50%;
