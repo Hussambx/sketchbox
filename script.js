@@ -1,12 +1,11 @@
-let nu = 256;
-let size =800*800; //Area of play area
-let amount = 16*16;
+let size =600*600; //Area of play area
+let amount = 16*16;  //Amount of grids
 
-let color = "red";
+
 const fox = document.getElementsByClassName("main");
 const colorsel = document.querySelector('#csel');
 const sizedropdown = document.querySelector('#sizedropdown');
-
+let color = colorsel.value;
 start();
 function start(){   
     //Determines the required size of each box based off the amount
@@ -34,7 +33,7 @@ buttons.forEach((section) => {
 
     // and for each one we add a 'click' listener
     section.addEventListener('mouseover',function (e) {
-        e.target.style.backgroundColor=color;
+            e.target.style.backgroundColor=color;        
     });
   });
 }
@@ -67,3 +66,4 @@ function clear(){
 //onClick event for button 
 const btn = document.querySelector('.rest');
 btn.onclick = () => clear();
+
