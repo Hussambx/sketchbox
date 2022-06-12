@@ -5,6 +5,7 @@ let amount = 4*4;
 let color = "red";
 let fox = document.getElementsByClassName("main");
 const colorsel = document.querySelector('#csel');
+const sizedropdown = document.querySelector('#sizedropdown');
 
 start();
 function start(){   
@@ -42,5 +43,9 @@ colorsel.addEventListener('change', (e) => {
 });
 
 
- 
+sizedropdown.addEventListener('change', (e) => {
+    size = e.target.value;
+    alert(e.target.value);
+   });
+   
 
