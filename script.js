@@ -10,8 +10,7 @@ start();
 function start(){   
     //Determines the required size of each box based off the amount
     let widthx = Math.sqrt((size/amount));
-    console.log("bro");
-    console.log(amount);
+  
     for(let i =0;i<amount;i++){
         let me = document.createElement("section");
         me.id ="box";
@@ -48,7 +47,6 @@ colorsel.addEventListener('change', (e) => {
 //This function adds an event listener to the select dropdown 
 sizedropdown.addEventListener('change', (e) => {
     amount = e.target.value;
-    alert(amount);
     clear();
    });
    
