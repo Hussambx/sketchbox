@@ -63,3 +63,7 @@ function clear(){
     //Calling back the start function
     start();
 }
+
+//onClick event for button 
+const btn = document.querySelector('.rest');
+btn.onclick = () => clear();
