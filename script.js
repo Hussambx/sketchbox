@@ -24,6 +24,16 @@ function start(){
 
 }
 
+var mouseDown = 0;
+document.body.onmousedown = function() { 
+  mouseDown = 1;
+}
+document.body.onmouseup = function() {
+mouseDown = 0;
+}
+
+
+
 
     function setup(){
     //Basically adds an event listenters for all section elements aka the boxs/grids
@@ -32,8 +42,18 @@ buttons.forEach((section) => {
 
     // and for each one we add a 'click' listener
     section.addEventListener('mouseover',function (e) {
-            e.target.style.backgroundColor=color;        
+        if(mouseDown==1){
+            e.target.style.backgroundColor=color;   
+
+        }
+                
     });
+
+    section.addEventListener('mousedown',function (e) {
+        e.target.style.backgroundColor=color;        
+});
+
+
   });
 }
 
