@@ -2,14 +2,13 @@ body{
     background-color: #ededed;
 }
 
-
-
 h1,h2{
     text-align: center;
 }
 h1{
     font-size: 50px;
     margin-top: 15px;
+    margin-bottom: 0;
 }
 #main{
     display: flex;
@@ -68,19 +67,19 @@ select{
     background-color: gray;
     border-color: gray;
     text-align: center;
-    outline: 1px solid lightblue;
+    outline: 1px solid darkgray;
     color:white;
 }
 .rest{
     background-color: grey;
-    outline: 1px solid black;
+    outline: 1px solid darkgray;
     color: white;
     margin-left: 20%;
     margin-right: 20%;
-    border-radius: 50%;
+    border-radius: 20%;
     border-style: none;
     height: 50px;
-    margin-top: 40px;
+    margin-top: 20px;
     width: 80px;
 }
 p{
