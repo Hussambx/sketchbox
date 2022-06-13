@@ -4,8 +4,10 @@ let amount = 16*16;  //Amount of grids
 
 const fox = document.getElementsByClassName("main");
 const colorsel = document.querySelector('#csel');
+const colorsel2 = document.querySelector('#csel2');
 const sizedropdown = document.querySelector('#sizedropdown');
 let color = colorsel.value;
+let backcolor = colorsel2.value;
 start();
 function start(){   
     //Determines the required size of each box based off the amount
@@ -14,7 +16,8 @@ function start(){
     for(let i =0;i<amount;i++){
         let me = document.createElement("section");
         me.id ="box";
-        me.style.backgroundColor = "white";
+        backcolor = colorsel2.value;
+        me.style.backgroundColor = backcolor;
         me.style.width=widthx+"px";
         me.style.height = widthx+"px";
         document.getElementById('main').appendChild(me);
