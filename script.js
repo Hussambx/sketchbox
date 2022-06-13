@@ -8,6 +8,8 @@ const colorsel2 = document.querySelector('#csel2');
 const sizedropdown = document.querySelector('#sizedropdown');
 let color = colorsel.value;
 let backcolor = colorsel2.value;
+sizedropdown.value = 64;
+
 start();
 function start(){   
     //Determines the required size of each box based off the amount
@@ -27,6 +29,7 @@ function start(){
 
 }
 
+//Tracks mouse down status 
 var mouseDown = 0;
 document.body.onmousedown = function() { 
   mouseDown = 1;
